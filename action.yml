@@ -1,0 +1,8 @@
+name: 'Autofix Commit & Push'
+description: 'If there are local changes, commit, push, and then fail the job.'
+runs:
+  using: 'node12'
+  main: 'index.js'
+branding:
+  icon: check-circle
+  color: red
