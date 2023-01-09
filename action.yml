@@ -1,7 +1,7 @@
 name: 'Autofix Commit & Push'
 description: 'If there are local changes, commit, push, and then fail the job.'
 runs:
-  using: 'node12'
+  using: 'node16'
   main: 'index.js'
 branding:
   icon: check-circle
